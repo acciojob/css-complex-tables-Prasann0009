@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+/* Styling for the complex table */
+.complex-table {
+  border: 1px solid orange;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styling for table header cells */
+.complex-table th {
+  background-color: #888888;
+  color: white;
+  text-align: center;
+  border: 1px solid orange;
+  padding: 3px 5px;
+}
+
+/* Styling for table data cells */
+.complex-table td {
+  text-align: center;
+  border: 1px solid orange;
+  padding: 3px 5px;
+}
+
+/* Styling for sub-total cell */
+.sub-total-text {
+  text-align: right;
+}
